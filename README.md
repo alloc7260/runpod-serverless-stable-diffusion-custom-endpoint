@@ -25,11 +25,11 @@
 9. go to serverless tab 
 10. select custom template
 11. create custom template using this public docker image
-![Custom Template](https://github.com/alloc7260/runpod-serverless-stable-diffusion-custom-endpoint/blob/main/imgs/create%20endpoint.png?raw=true "Create Template")
-13. select endpoints
-14. create endpoint by specifying created template name and instance details
-![Custom Endpoint](https://github.com/alloc7260/runpod-serverless-stable-diffusion-custom-endpoint/blob/main/imgs/create%20template.png?raw=true "Create Endpoint")
-16. get the endpoint id and put it in `requesting-script.py`
-17. get your api key from settings tab and put it in `requesting-script.py`
-18. pip install requests opencv-python numpy Pillow 
-19. tweak the parameters and run the script by `python3 requesting-script.py`
+![Custom Template](https://github.com/alloc7260/runpod-serverless-stable-diffusion-custom-endpoint/blob/main/imgs/create%20template.png?raw=true "Create Template")
+12. select endpoints
+13. create endpoint by specifying created template name and instance details
+![Custom Endpoint](https://github.com/alloc7260/runpod-serverless-stable-diffusion-custom-endpoint/blob/main/imgs/create%20endpoint.png?raw=true "Create Endpoint")
+14. get the endpoint id and put it in `requesting-script.py`
+15. get your api key from settings tab and put it in `requesting-script.py`
+16. pip install requests opencv-python numpy Pillow 
+17. tweak the parameters and run the script by `python3 requesting-script.py`
